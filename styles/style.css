@@ -36,6 +36,7 @@
   grid-column-start: 2;
   width: 148px;
   height: 105px;
+  margin-bottom: 4px;
 }
 
 .header_link-address {
@@ -94,6 +95,7 @@
 .aligned-text {
   width: 100%;
   z-index: 1;
+  line-height: 115%;
 }
 
 .aligned-text_center {
@@ -120,7 +122,7 @@
   padding-right: 50px;
 }
 
-.cover__description-text {
+.subline_title {
   color: #fff;
   font-size: 22px;
   text-transform: uppercase;
@@ -172,6 +174,10 @@
   position: relative;
 }
 
+.card-link{
+  text-decoration: none;
+}
+
 .card {
   display: flex;
   flex-direction: column;
@@ -180,7 +186,6 @@
   background-repeat: no-repeat;
   background-position: center;
   height: 100%;
-  z-index: -1;
 }
 
 .card_type_film {
@@ -218,7 +223,7 @@
 .lots__look-more-link {
   display: block;
   margin-top: 30px;
-  margin-bottom: 183px;
+  margin-bottom: 182px;
   font-size: 20px;
   font-weight: 400;
   text-decoration-line: underline;
@@ -253,7 +258,6 @@
 }
 
 .about__logo-image {
-  width: auto;
   padding: 63px 46px;
 }
 
@@ -274,6 +278,7 @@
   row-gap: 25px;
   font-size: 20px;
   font-weight: 400;
+  margin-top: 8px;
 }
 
 .footer {
